@@ -1,0 +1,48 @@
+<mxfile host="Electron">
+  <diagram name="Página-1" id="HtMtiMILmZhdGpprQ4vr">
+    <mxGraphModel dx="1471" dy="894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="b" parent="1" style="shape=swimlane;startSize=30;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;" value="Plataforma de Trekking" vertex="1">
+          <mxGeometry height="520" width="800" x="300" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;" value="Usuario" vertex="1">
+          <mxGeometry height="160" width="80" x="120" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="uc3" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="CU-03&#xa;Explorar y consultar una ruta" vertex="1">
+          <mxGeometry height="110" width="300" x="500" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uc1" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="CU-01&#xa;Registrar cuenta" vertex="1">
+          <mxGeometry height="110" width="180" x="320" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="uc2" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="CU-02&#xa;Iniciar y cerrar sesión" vertex="1">
+          <mxGeometry height="110" width="180" x="510" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="uc4" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="Buscar y&#xa;filtrar rutas" vertex="1">
+          <mxGeometry height="110" width="180" x="700" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="uc5" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="Visualizar mapa&#xa;interactivo" vertex="1">
+          <mxGeometry height="110" width="180" x="890" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="a" style="html=1;endArrow=classic;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="uc3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inc1" edge="1" parent="1" source="uc3" style="html=1;endArrow=open;dashed=1;exitX=0.05;exitY=0.95;entryX=0.5;entryY=0;fontStyle=1;" target="uc1" value="">
+          <mxGeometry relative="1" x="0.0014" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="inc2" edge="1" parent="1" source="uc3" style="html=1;endArrow=open;dashed=1;exitX=0.3;exitY=1;entryX=0.5;entryY=0;fontStyle=1;" target="uc2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inc3" edge="1" parent="1" source="uc3" style="html=1;endArrow=open;dashed=1;exitX=0.7;exitY=1;entryX=0.5;entryY=0;fontStyle=1;" target="uc4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inc4" edge="1" parent="1" source="uc3" style="html=1;endArrow=open;dashed=1;exitX=0.95;exitY=0.95;entryX=0.5;entryY=0;fontStyle=1;" target="uc5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
